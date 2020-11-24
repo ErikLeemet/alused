@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.day__container {
+    height: 50px;
+    width: 50px;
+    background-color: #fff999;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.day__title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: .9;
+}
+
+.day__date {
+    font-size: 14px;
+}
+
+.day__container:hover {
+    background-color: coral;
+    transition: all 1s ease-in-out;
+}
+.day__container{
+    cursor: pointer;
+}
